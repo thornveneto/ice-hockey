@@ -1,0 +1,88 @@
+# ============================
+# Visual Studio
+# ============================
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# User-specific settings
+.vs/
+*.vc.db
+*.VC.opendb
+
+# Build results
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+bin/
+obj/
+out/
+
+# Custom build output folder
+game_1_64/
+
+# MSBuild logs
+*.tlog
+
+# Visual Studio cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.cachefile
+
+# Backup & auto-generated files
+*.bak
+*.log
+*.tmp
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# ============================
+# CMake (if used)
+# ============================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+
+# ============================
+# SFML
+# ============================
+
+# Ignore SFML binaries if included locally
+SFML/bin/
+SFML/lib/*.dll
+SFML/*.dll
+*.dll
+
+# ============================
+# Windows general
+# ============================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================
+# Archives
+# ============================
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# ============================
+# Logs
+# ============================
+*.log

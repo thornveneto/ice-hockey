@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\game_base">
+      <UniqueIdentifier>{40d423a4-b510-4ba9-b42f-c1cfd19b9f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\messaging">
+      <UniqueIdentifier>{ea5f4021-a005-408d-8626-89472db64dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2d">
+      <UniqueIdentifier>{63217b11-3c88-4367-83db-9b49eff88d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fsm">
+      <UniqueIdentifier>{dab29246-a1bf-4bc8-9f23-80b06a990a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ice_hockey">
+      <UniqueIdentifier>{9790a83a-b6d5-4740-9322-290e5aafae86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\messaging">
+      <UniqueIdentifier>{437bc351-f39e-4549-8251-dce0d132d57f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_base">
+      <UniqueIdentifier>{91dbb4ee-d042-41a5-8bcf-4539f654594b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2d">
+      <UniqueIdentifier>{53dc1442-5e3f-4e9c-a622-cef976f78adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fsm">
+      <UniqueIdentifier>{0c808f3b-211d-4b46-9213-b7ee587efd13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ice_hockey">
+      <UniqueIdentifier>{1fdcfc8e-aad7-48e3-8bca-09907cc7f27e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\game_base</Filter>
+    </ClCompile>
+    <ClCompile Include="Puck.cpp">
+      <Filter>Source Files\ice_hockey</Filter>
+    </ClCompile>
+    <ClCompile Include="Team.cpp">
+      <Filter>Source Files\ice_hockey</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayer.cpp">
+      <Filter>Source Files\ice_hockey</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayerStates.cpp">
+      <Filter>Source Files\ice_hockey</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SteeringBehaviours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Telegram.h">
+      <Filter>Header Files\messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDispatcher.h">
+      <Filter>Header Files\messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity.h">
+      <Filter>Header Files\game_base</Filter>
+    </ClInclude>
+    <ClInclude Include="Region.h">
+      <Filter>Header Files\game_base</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Header Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleRegion.h">
+      <Filter>Header Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Header Files\fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\game_base</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayer.h">
+      <Filter>Header Files\ice_hockey</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayerStates.h">
+      <Filter>Header Files\ice_hockey</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayArea.h">
+      <Filter>Header Files\ice_hockey</Filter>
+    </ClInclude>
+    <ClInclude Include="Team.h">
+      <Filter>Header Files\ice_hockey</Filter>
+    </ClInclude>
+    <ClInclude Include="Puck.h">
+      <Filter>Header Files\ice_hockey</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files\game_base</Filter>
+    </ClInclude>
+    <ClInclude Include="TrivialLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+  </ItemGroup>
+</Project>
